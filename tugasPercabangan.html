@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var kata = prompt("Silahkan tulis kata kata hari ini:");
+        if(kata == "kopi"){
+            document.write("<h2>ubur ubur ikan lele, isuk isuk sarapan coding lee</h2>");
+        }
+
+        var absen = prompt("Masukkan no absen 23-34:");
+        var grade = "";
+
+        if(absen == 23) grade = "izza"
+        else if(absen == 24) grade = "putri"
+        else if(absen == 25) grade = "rafi"
+        else if(absen == 26) grade = "reva"
+        else if(absen == 27) grade = "rizky"
+        else if(absen == 28) grade = "angga"
+        else if(absen == 29) grade = "amin"
+        else if(absen == 30) grade = "imah"
+        else if(absen == 31) grade = "sultan"
+        else if(absen == 32) grade = "syifa"
+        else if(absen == 33) grade = "tarisa"
+        else if(absen == 34) grade = "winanda"
+
+        document.write(`<p>Kata kata untuk ${grade} adalah ubur ubur ikan lele, isuk isuk sarapan coding lee</p>`);
+    </script>
+</body>
+</html>
